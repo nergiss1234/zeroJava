@@ -25,6 +25,12 @@ public class D06_SoruCözümü {
         double girilenYarıÇap =scanner.nextDouble();
         double piSayısı =3.14;
         double daireninÇevresi =2*piSayısı*girilenYarıÇap;
+        System.out.println(daireninÇevresi);
+        System.out.println("Dairenin çevresi : "+daireninÇevresi);
+        double daireninAlanı =piSayısı*girilenYarıÇap*girilenYarıÇap ;
+        System.out.println(daireninAlanı);
+        System.out.println("Dairenin Alanı :"+daireninAlanı);
+
 
 
 
