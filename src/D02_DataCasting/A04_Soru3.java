@@ -8,6 +8,12 @@ public class A04_Soru3 {
         //ile 127 arasindaki bir sayiya donusturup yazdirin.
         Scanner scanner=new Scanner(System.in);
         System.out.println("Lütfen bir sayı giriniz");
+        double girilenSayı=scanner.nextDouble();
+
+
+        byte sayı1=(byte) girilenSayı;
+        System.out.println("Girilen sayının -128 ile 127 arasındaki değeri "+sayı1);
+
 
 
 
