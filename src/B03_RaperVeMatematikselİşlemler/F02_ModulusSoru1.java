@@ -12,7 +12,7 @@ public class F02_ModulusSoru1 {
         int sayınınÜçBasamaklıHali=verilenSayı/10;
         int onlarBasamağı=sayınınÜçBasamaklıHali/10;
         int sayınınİkiBasamaklıHali=sayınınÜçBasamaklıHali/10;
-        int yüzlerBasamağı=sayınınİkiBasamaklıHali/10
+        int yüzlerBasamağı=sayınınİkiBasamaklıHali/10;
         int binlerBasamaklıHali=sayınınİkiBasamaklıHali/10;
         System.out.println(birlerBasamağı+onlarBasamağı+yüzlerBasamağı+binlerBasamaklıHali);
 
