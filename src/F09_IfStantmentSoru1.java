@@ -24,7 +24,7 @@ public class F09_IfStantmentSoru1 {
 // soru2- kullanıcıdan bir harf alın, harf ile başlayan bir ay varsa yazdırın.
         //NOT:Büyük harf ,küçük harf hassasiyeti olmasın .
         //kullanıcı o veya O yazdığında output Ocak olsun.
-        Scanner scanner=new Scanner(System.in);
+
         System.out.println("lütfen bir harf giriniz ");
         char girilenHarf=scanner.nextLine().toLowerCase().charAt(0);
 
