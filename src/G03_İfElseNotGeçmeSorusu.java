@@ -21,8 +21,7 @@ public class G03_İfElseNotGeçmeSorusu {
 
 
 
-
-
+//çalışıyoruz
 
 
 
