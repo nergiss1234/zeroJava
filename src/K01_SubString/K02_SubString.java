@@ -33,6 +33,31 @@ public class K02_SubString {
         System.out.println(str.substring(1));//z ye az uyu az konuş
         //sondan 5.karakteri yazdırın....
         System.out.println(str.substring(str.length() - 5));//k
+        //son 5 karakterini yazdırın
+        System.out.println(str.substring(str.length() - 5));//konuş
+        //chatAt() ve substring() methodları farklı sonuçlar verebilir
+        //lenght 30,son harfin indeksi 1 29
+
+
+        //son karakteri charAt ile yazdırın
+        System.out.println(str.charAt(str.length()-1));//ş
+        //son karakteri substring ile yazdırın
+        System.out.println(str.substring(str.length() - 1));//ş
+        // index olarak str.lenght () i, kullanarak
+// charAt() ve substring 'i kullanalım
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
