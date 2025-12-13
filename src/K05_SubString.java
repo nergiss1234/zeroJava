@@ -23,7 +23,7 @@ public class K05_SubString {
         if(girilenMetin.contains("iş ")&&girilenMetin.contains("ev")){
             System.out.println("evden çalışmak gibisi yok");
         }
-
+     
 
 
 
