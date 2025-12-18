@@ -10,6 +10,9 @@ public class K08_IndeksOf {
         System.out.println(str.indexOf("z", 5));
 
 
+
+
+
     }
 
 
