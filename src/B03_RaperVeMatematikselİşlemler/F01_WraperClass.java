@@ -1,6 +1,6 @@
 package B03_RaperVeMatematikselİşlemler;
 
-public class F01_RaperClass {
+public class F01_WraperClass {
     public static void main(String[] args) {
         String nutellaFiyat1="23";
         String nutellaFiyat2="45";

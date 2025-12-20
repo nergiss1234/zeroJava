@@ -9,17 +9,22 @@ public class E07_ForLookFaktöriyelŞekilŞukul {
         System.out.println("lütfen 20 den küçük pozitif bir tamsayı giriniz...");
         int girilenSayı=scanner.nextInt();
         int çarpım=1;
+        System.out.print(girilenSayı+"! =");
      if (!(girilenSayı<20&&girilenSayı>0)){
          System.out.println("verdiğiniz sayının faktöriyeli yukarıdaki şarta göre hesaplamaz");
      }else {
-         for (int i = 1; i <=girilenSayı ; i++) {
+         for (int i = girilenSayı; i >=2 ; i++) {
              çarpım*=i;
+             System.out.print(i+"*");
 
          }
-         for (int i = girilenSayı; i <=1 ; i++) {
-             System.out.println(
-                     girilenSayı+"!"+" "+""
-             );
+         System.out.println("i"+"="+çarpım);
+
+
+
+         }
+
+
 
          }
      }
@@ -57,7 +62,6 @@ public class E07_ForLookFaktöriyelŞekilŞukul {
 
 
 
-    }
 
 
 
@@ -80,4 +84,5 @@ public class E07_ForLookFaktöriyelŞekilŞukul {
 
 
 
-}
+
+
