@@ -17,15 +17,13 @@ public class E08_ForLookİleÜçİleBeşİleBölünebilme {
 
             if (i%3==0&&i%5==0){
                 System.out.print("fizzbuzz");
-            }
-            if (i%3==0){
+            }else if (i%3==0){
                 System.out.print("fizz");
-            }
-            if(i%5==0) {
+            }else if(i%5==0) {
                 System.out.print("buzz");
 
 
-            }
+            }else
             System.out.print(i+" ");
 
         }
