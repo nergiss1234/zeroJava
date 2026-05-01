@@ -99,8 +99,17 @@ for loop kullanarak asagidaki sayiları yazıdırın...
         * * * * *
 
          */
+      Scanner scanner2=new Scanner(System.in);
+        System.out.println("Lütfen satır sayısını girin ...");
+        int satır=scanner2.nextInt();
 
+        for (int i = 1; i <=satır ; i++) {
+            for (int j = 1; j <=i; j++) {
+                System.out.print("* ");
 
+            }
+            System.out.println("");
+        }
 
 
 
