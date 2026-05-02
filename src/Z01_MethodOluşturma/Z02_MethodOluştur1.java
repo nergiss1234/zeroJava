@@ -32,6 +32,54 @@ public class Z02_MethodOluştur1 {
 
 
  }
+  String cumle="oynaya oynaya gelin çocuklar ...";
+        System.out.println(cumle.toUpperCase());
+        System.out.println(cumle);
+        cumle=cumle.toUpperCase();
+        System.out.println(cumle);
+        System.out.println(cumle);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
