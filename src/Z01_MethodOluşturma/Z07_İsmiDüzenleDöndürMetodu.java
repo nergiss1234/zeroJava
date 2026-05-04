@@ -8,7 +8,11 @@ public class Z07_İsmiDüzenleDöndürMetodu {
 
 //input : isim : Ali soyisim: YILMAZ metod return Ali Yilmaz
 
-
+String ad="Murat";
+String soyAd="Topal;";
+        System.out.println(ismiDüzenleDöndürMetodu(ad,soyAd));
+         ad=ismiDüzenleDöndürMetodu(ad,soyAd);
+        System.out.println(ad);
 
 
 
@@ -21,7 +25,15 @@ public class Z07_İsmiDüzenleDöndürMetodu {
 
     }
 
+public static String ismiDüzenleDöndürMetodu(String isim,String soyIsım){
 
+String düzenlenmişIsim=isim.substring(0,1).toUpperCase()+isim.substring(1).toLowerCase()+" "
++ soyIsım.substring(0,1).toUpperCase()+soyIsım.substring(1).toUpperCase();
+return düzenlenmişIsim;
+
+
+
+}
 
 
 
