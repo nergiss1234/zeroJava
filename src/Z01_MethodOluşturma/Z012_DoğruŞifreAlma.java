@@ -21,7 +21,7 @@ public class Z012_DoğruŞifreAlma {
             şifre=scanner.nextLine();
             şifreGeçerliMi=Z011_ŞifreKontrol.şifreDoğruMuKontrol(şifre);
             if (şifreGeçerliMi==true){
-                System.out.println(" doğru şifreyi girdiniz");
+                System.out.println(i+" doğru şifreyi girdiniz...");
                 break;
             }
 
